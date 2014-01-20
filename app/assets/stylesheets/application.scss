@@ -15,12 +15,18 @@
  @import "bootstrap";
 
  .container {
-  margin-left: 135px
+  margin-left: 135px;
+  
+}
+
+.navbar {
+  background-color: #000000;
 }
 
 .navbar .nav > li > a.brand {
   padding-left: 0px;
-}
+  color: #000000;
+}     
 
 .quiet {
   color: #ababab;
@@ -31,7 +37,7 @@ div.nav_item {
   float: left;
 }
 
-.label  {
+.label, .badge {
   a, a:hover, a:focus {
     color: #fff;
     text-decoration: none;
