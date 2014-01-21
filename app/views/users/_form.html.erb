@@ -9,6 +9,14 @@
       <%= f.label :password %>
       <%= f.password_field :password %>
     </div>
+    <div class='control-group'>
+      <%= f.label :github_link %>
+      <%= f.text_field :github_link %>
+    </div>
+    <div class='control-group'>
+      <%= f.label :email %>
+      <%= f.email_field :email %>
+    </div>
     <%= f.submit (@user.new_record? ? 'Register' : 'Update Profile'), class: "btn btn-success" %>
   <% end %>
 </div>
